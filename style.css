@@ -564,7 +564,6 @@ h1{
 }
 
 /* ------------------ Section Portfolio --------------------- */
-
 .portfolio {
     width: 100%;
 }
@@ -573,14 +572,8 @@ h1{
     padding: 50px 0;
     font-size: 50px;
     padding-left: 300px;
-    padding-bottom: 10px;;
 }
-.sous-titre {
-    text-align: center;
-    padding: 50px 0;
-    font-size: 20px;
-    padding-left: 300px;
-}
+
 .cont-portfolio {
     width: 100%;
     height: auto;
@@ -662,12 +655,6 @@ h1{
         margin: 50px 0 70px;
         padding-left: 0;
     }
-    .sous-titre {
-        font-size: 30px;
-        margin: 50px 0 70px;
-        padding-left: 0;
-    }
-
 
 }
 @media screen and (max-width: 500px) {
@@ -676,15 +663,15 @@ h1{
         margin: 10px 0;
         padding: 30px 0;
     }
-    .sous-titre {
-        margin: 10px 0;
-        padding: 30px 0;
-    }
     .item {
         height: 420px;
     }
     .cont-img-port {
-        height: auto;
+    }
+    .aux{
+        font-size: 19px;
+        padding-top: 0px;
+        padding-bottom: 2px;
     }
 
 }
@@ -693,6 +680,7 @@ h1{
     .item {
         height: 380px;
     }
+
 }
 
 /*--------- Section Range -------------- */
