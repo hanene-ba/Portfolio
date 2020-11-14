@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- BTN flottant gauhe petit menu-->
+
+    <div class="btn-rond-menu">
+        <div class="cont-ligne">
+            <div class="ligne-unique"></div>
+        </div>
+
+    </div>
+
+    <!-- Navigation verticale-->
+    <nav class="nav-gauche">
+
+        <div class="blocs-menu">
+            <div class="cercle-portrait">
+                <img src="images/profil-photo.jpg" alt="portrait.img">
+            </div>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#accueil">
+                    Home Page
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#pres">
+                    Presentation
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#port">
+                    Projetcs
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#range">
+                    Skills
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
+                <a href="#contact">
+                    Contact
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="logo-cercle">
+                <a href="#contact">
+                    <img src="images/contact.png" alt="logo contact">
+                </a>
+            </span>
+        </div>
+    </nav>
+
+    <!-- section accueil-->
+
+    <section class="accueil" id="accueil">
+        <h1>Welcome to my Portfolio</h1>
+        <p class="txt-animation"></p>
+        <a href="Hanene BEN AMEUR-CV.pdf" target="_blank" class="btn-acc btn-acc1"> Download CV- Fr</a>
+        <a href="Hanene BEN AMEUR-CV-anglais.pdf"  target="_blank" class="btn-acc btn-acc2"> Download CV- Ang</a>
+        <div class="medias">
+            <a href="https://github.com" target="blank">
+                <div class="media media1">
+                    <img src="images/github.png" alt="github icone" class="icone-medias-git">
+                </div>
+
+            </a>
+            <a href="https://www.linkedin.com/in/hanene-ben-ameur-95984a161/" target="blank">
+                <div class="media media2">
+                    <img src="images/linkedin.svg" alt="linkedin icone" class="icone-medias">
+                </div>
+
+            </a>
+        </div>
+
+        <a href="#pres">
+            <div class="btn-rond">
+                <img src="images/arrowdown.png" alt="logo fleche bas" class=" logo-btn-rond-acc">
+            </div>
+        </a>
+
+    </section>
+    <!-- Section Présentation -->
+
+<section class="presentation" id="pres">
+
+    <h2 class="titre-pres"> About me ! </h2>
+
+    <div class="container-presentation">
+
+        <div class="fond-forme"></div>
+
+        <div class="pres-gauche">
+            <h3 style="color: #ff5733">I am Hanene Ben Ameur. I recently graduated as an engineer with a thirst for learning within a young and dynamic team </h3>
+            <br>
+            <p>Being very passionate about computers and high technologies from a young age, I oriented my training and my professional goals in this field. I did a Full Stack JS training as part of a reconversion to IT (Html, CSS, Javascript, react Js, Node Js, bootstrap, MongoDB ..) at "Go my code" so I have good knowledge of testing and validation (functional test / agile and scrum methodology ..) !</p>
+            <br>
+            <p>
+                I have been organized and rigorous since I was young, imaginative and creative and above all endowed with a critical eye supported by the culture of self-control. In addition, I am a very motivated person, ready to fully invest myself in the tasks that will be entrusted to me and to learn all the facets of my profession.            </p>
+        </div>
+        
+        <div class="pres-droite">
+            <ul class="liste-presentation">
+                <li class="item-liste i1">
+                    <span class="chiffre-style">1.</span>
+                    <p class="txt-liste">Front-end Developer</p>
+                </li>
+                <li class="item-liste i2">
+                    <span class="chiffre-style">2.</span>
+                    <p class="txt-liste">Back-end Developer</p>
+                </li>
+                <li class="item-liste i3">
+                    <span class="chiffre-style">3.</span>
+                    <p class="txt-liste">Full-Stack Developer</p>
+                </li>
+                <li class="item-liste i4">
+                    <span class="chiffre-style">4.</span>
+                    <p class="txt-liste"> agile methodology</p>
+                </li>
+                <li class="item-liste i5">
+                    <span class="chiffre-style">5.</span>
+                    <p class="txt-liste">functional test</p>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+
+</section>
+
+<!-- sction portefolio-->
+
+
+<section class="portfolio" id="port">
+
+
+    <h2 class="titre-port">My projects</h2>
+    <p class="sous-titre">You will find here the achievements completed during my training of Full-Stack Developer at Go My Code </p>
+
+    <div class="cont-portfolio">
+
+
+        <div class="item vague1">
+            <div class="cont-img-port">
+                <img src="images/todo-list.JPG" alt="todo list">
+            </div>
+            <h3>Todo-List App</h3>
+            <p>to do list application, to note the activities to do for the day, if the activity is finished, it can be deleted. Also, we can update an activity </p>
+            <a href="https://github.com/hanene-ba/TODO-List.git" class="btn-projets">Discover the project</a>
+        </div>
+
+        <div class="item vague1">
+            <div class="cont-img-port">
+                <img src="images/movie-app.JPG" alt="movie app">
+            </div>
+            <h3>Movie App</h3>
+            <p>We used a JSONPlaceholder - Fake online REST API for testing to create a movie application : search for movie in the data base</p>
+            <a href="https://github.com/hanene-ba/movieapp.git" class="btn-projets">Discover the project</a>
+        </div>
+
+        <div class="item vague1">
+            <div class="cont-img-port">
+                <img src="images/redux-todo-list.JPG" alt="todo redux">
+            </div>
+            <h3>Todo App using Redux</h3>
+            <p>to do list application, to note the activities to do for each day, using redux</p>
+            <a href="https://github.com/hanene-ba/workshop-todo-redux.git" class="btn-projets">Discover the project</a>
+        </div>
+
+
+        <div class="item vague2">
+            <div class="cont-img-port">
+                <img src="images/shoppingCart.JPG" alt="shop cart1">
+            </div>
+            <h3>Shopping Cart </h3>
+            <p>it is a mini static website which is used to book tours in tunisia and buy handmade souvenirs online</p>
+            <a href="https://github.com/hanene-ba/checkpoint-shopping-cart.git" class="btn-projets">Discover the project</a>
+        </div>
+
+
+        <div class="item vague2">
+            <div class="cont-img-port">
+                <img src="images/Ecoprice.JPG" alt="img portfolio">
+            </div>
+            <h3>E-commerce website Eco-Price</h3>
+            <p>Creation of a dynamic e-commerce website that sells products with close expiration date at reduced prices.</p>
+            <a href="https://github.com/hanene-ba/projet-validation-eco-price.git" class="btn-projets">Découvrez le projet</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Section Range -->
+
+<section class="section-range" id="range">
+
+    <h2 class="titre-exp">Skills</h2>
+    <p class="sous-titre">A quick overview of the skills acquired during my training</p>
+
+    <div class="grille-skill">
+
+
+        <div class="range-cont">
+            <p class="label-skill">JavaScript</p>
+            <p class="number-skill">75%</p>
+            <div class="barre-skill b1"></div>
+            <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+            <p class="label-skill">Node JS</p>
+            <p class="number-skill">70%</p>
+            <div class="barre-skill b2"></div>
+            <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+            <p class="label-skill">React Js</p>
+            <p class="number-skill">75%</p>
+            <div class="barre-skill b3"></div>
+            <div class="barre-grises"></div>
+        </div>
+
+
+        <div class="range-cont">
+            <p class="label-skill">Bootstrap</p>
+            <p class="number-skill">80%</p>
+            <div class="barre-skill b4"></div>
+            <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+            <p class="label-skill">HTML</p>
+            <p class="number-skill">80%</p>
+            <div class="barre-skill b5"></div>
+            <div class="barre-grises"></div>
+        </div>
+        <div class="range-cont">
+            <p class="label-skill">CSS</p>
+            <p class="number-skill">70%</p>
+            <div class="barre-skill b6"></div>
+            <div class="barre-grises"></div>
+        </div>
+        
+        
+        
+
+    </div>
+
+</section>
+<!-- section Parallax-->
+
+<dic class="section-parallax">
+    <p class="txt-par">
+        "Pick a job you love, and you won't have to work
+        a day in your life"
+    </p>
+    
+</dic>
+<!-- Section Contact -->
+
+<section class="section-contact" id="contact">
+
+    <h2><strong>Contact : <u>Get in touch!</u> </strong></h2>
+    <h2  > Email : ba.hanene.96@gmail.com</h2>
+<br>
+<br>
+<br>
+
+    <div class="container-form">
+
+        <form action="https://formspree.io/f/mgepzyak" method="POST" class="form-bloc" id="my-form" >
+
+            
+            <div class="form-groupe">
+                <label for="name">Name</label>
+                <input type="text" required maxlength="16" id="name" name="name">
+            </div>
+            <div class="form-groupe">
+                <label for="email">Email</label>
+                <input type="email" required  id="email" name="email">
+            </div>
+            <div class="form-groupe">
+                <textarea id="message" placeholder="message" required name="message"></textarea>
+            </div>
+
+            <div class="form-groupe">
+                <input type="submit" value="Submit" class="button-sub">
+            </div>
+        </form>
+    </div>
+    <div id="status"></div>
+</section>
+<footer class="section-fin">
+    <strong> Hanene Ben Ameur </strong> 
+    <br>
+    Full-Stack Junior Developer  
+    <br>
+    <p  style="color: #ff5733" >Email: ba.hanene.96@gmail.com</p>
+    <br>
+    phone: +216 53 222 859
+    <br>
+    2020, Tunis
+</footer>
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>
